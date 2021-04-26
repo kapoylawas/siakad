@@ -1,0 +1,50 @@
+CRITICAL - 2020-12-01 02:00:53 --> Undefined property: App\Controllers\Auth::$ModelAuth
+#0 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Ampps\\www\\si...', 54, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-01 02:02:03 --> Unable to connect to the database.
+#0 D:\Ampps\www\siakad\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Ampps\www\siakad\app\Models\Model_auth.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user('admin@gmail.com', '123456')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-01 02:02:03 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\Ampps\www\siakad\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\Ampps\\www\\si...', 100, Array)
+#1 D:\Ampps\www\siakad\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\Auth), true)
+#2 D:\Ampps\www\siakad\system\Debug\Exceptions.php(308): include('D:\\Ampps\\www\\si...')
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-01 02:53:20 --> syntax error, unexpected '{'
+#0 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_nav', Array, true)
+#1 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(4): view('layout/v_nav')
+#2 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#3 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#4 D:\Ampps\www\siakad\app\Controllers\Admin.php(11): view('layout/v_wrappe...', Array)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Admin->index()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-12-01 02:54:18 --> syntax error, unexpected '}', expecting ',' or ';'
+#0 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_nav', Array, true)
+#1 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(4): view('layout/v_nav')
+#2 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#3 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#4 D:\Ampps\www\siakad\app\Controllers\Admin.php(11): view('layout/v_wrappe...', Array)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Admin->index()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

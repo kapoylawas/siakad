@@ -1,0 +1,37 @@
+CRITICAL - 2020-12-23 08:35:32 --> Not unique table/alias: 'tbl_jadwal'
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_krs.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Krs.php(22): App\Models\Model_krs->datakrs()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Krs->index()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Krs))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-23 08:44:42 --> Undefined index: nama_kelas
+#0 D:\Ampps\www\siakad\app\Views\mhs\krs\v_krs.php(91): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Ampps\\www\\si...', 91, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('mhs/krs/v_krs', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('mhs/krs/v_krs')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Krs.php(25): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Krs->index()
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Krs))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-23 23:55:01 --> You must set the database table to be used with your query.
+#0 D:\Ampps\www\siakad\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Ampps\www\siakad\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\Ampps\www\siakad\app\Controllers\Krs.php(17): CodeIgniter\Model->__call('detail_mhs', Array)
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Krs->index()
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Krs))
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

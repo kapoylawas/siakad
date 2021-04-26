@@ -1,0 +1,912 @@
+CRITICAL - 2020-12-27 00:57:07 --> md5() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'md5() expects p...', 'D:\\Ampps\\www\\si...', 52, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(52): md5(Array)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-27 00:57:09 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user('12345'"\\'\\");|]...', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:11 --> md5() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'md5() expects p...', 'D:\\Ampps\\www\\si...', 52, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(52): md5(Array)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-27 00:57:11 --> md5() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'md5() expects p...', 'D:\\Ampps\\www\\si...', 52, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(52): md5(Array)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-27 00:57:12 --> md5() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'md5() expects p...', 'D:\\Ampps\\www\\si...', 52, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(52): md5(Array)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-27 00:57:23 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user('1\x00\xC0\xA7\xC0\xA2', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:23 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:24 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user('\xBF'\xBF"', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:24 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:24 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user('\xF0''\xF0""', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:24 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:26 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(70): App\Models\Model_auth->login_mhs('1\x00\xC0\xA7\xC0\xA2', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:26 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:27 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(70): App\Models\Model_auth->login_mhs('\xBF'\xBF"', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:27 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:28 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(70): App\Models\Model_auth->login_mhs('\xF0''\xF0""', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:28 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:29 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(86): App\Models\Model_auth->login_dsn('1\x00\xC0\xA7\xC0\xA2', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:29 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:30 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(86): App\Models\Model_auth->login_dsn('\xBF'\xBF"', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:30 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:30 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(86): App\Models\Model_auth->login_dsn('\xF0''\xF0""', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:30 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:44 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user('..\xC0\xAF..\xC0\xAF..\xC0\xAF..\xC0...', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:45 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:47 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user('\xC0\xAE\xC0\xAE\xC0\xAF\xC0\xAE\xC0\xAE\xC0\xAF\xC0\xAE\xC0...', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:47 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:52 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(70): App\Models\Model_auth->login_mhs('..\xC0\xAF..\xC0\xAF..\xC0\xAF..\xC0...', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:54 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(70): App\Models\Model_auth->login_mhs('\xC0\xAE\xC0\xAE\xC0\xAF\xC0\xAE\xC0\xAE\xC0\xAF\xC0\xAE\xC0...', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:54 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:57:59 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(86): App\Models\Model_auth->login_dsn('..\xC0\xAF..\xC0\xAF..\xC0\xAF..\xC0...', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:57:59 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 00:58:02 --> Illegal mix of collations (utf8mb4_general_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_auth.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Auth.php(86): App\Models\Model_auth->login_dsn('\xC0\xAE\xC0\xAE\xC0\xAF\xC0\xAE\xC0\xAE\xC0\xAF\xC0\xAE\xC0...', '32cc5886dc1fa8c...')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 00:58:02 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Malformed UTF-8 characters, possibly incorrectly encoded". in D:\Ampps\www\siakad\system\Format\Exceptions\FormatException.php:9
+Stack trace:
+#0 D:\Ampps\www\siakad\system\Format\JSONFormatter.php(71): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Malformed UTF-8...')
+#1 D:\Ampps\www\siakad\system\API\ResponseTrait.php(414): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 D:\Ampps\www\siakad\system\API\ResponseTrait.php(134): CodeIgniter\Debug\Exceptions->format(Array)
+#3 D:\Ampps\www\siakad\system\Debug\Exceptions.php(168): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-27 05:22:59 --> Undefined variable: ta_aktif
+#0 D:\Ampps\www\siakad\app\Views\dosen\v_jadwal.php(3): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 3, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/v_jadwal', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/v_jadwal')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(26): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->jadwal()
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 05:51:18 --> Undefined variable: jadwal
+#0 D:\Ampps\www\siakad\app\Views\dosen\v_jadwal.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 20, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/v_jadwal', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/v_jadwal')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(30): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->jadwal()
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 05:51:54 --> Unknown column 'tbl_jadwal.nidn' in 'where clause'
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_dsn.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Dsn.php(28): App\Models\Model_dsn->jadwal_dosen()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->jadwal()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 06:13:30 --> Undefined index: kelas
+#0 D:\Ampps\www\siakad\app\Views\dosen\v_jadwal.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Ampps\\www\\si...', 28, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/v_jadwal', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/v_jadwal')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(31): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->jadwal()
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 06:21:09 --> Unknown column 'tbl_jadwal.nidn' in 'where clause'
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_dsn.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Dsn.php(28): App\Models\Model_dsn->jadwal_dosen()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->jadwal()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 06:22:49 --> Unknown column 'tbl_jadwal.nidn' in 'where clause'
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_dsn.php(17): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Dsn.php(28): App\Models\Model_dsn->jadwal_dosen()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->jadwal()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 09:48:52 --> Undefined variable: mhs
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_absensi.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 11, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(51): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 09:49:06 --> Undefined variable: mhs
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_absensi.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 14, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(51): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 10:30:03 --> Unknown column 'tbl_jadwal.id_mhs' in 'on clause'
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_dsn.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Dsn.php(50): App\Models\Model_dsn->mhs('21')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 10:30:09 --> Unknown column 'tbl_jadwal.id_mhs' in 'on clause'
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_dsn.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Dsn.php(50): App\Models\Model_dsn->mhs('21')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 10:30:21 --> Unknown column 'tbl_jadwal.id_mhs' in 'on clause'
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_dsn.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Dsn.php(50): App\Models\Model_dsn->mhs('21')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 10:30:47 --> Unknown column 'tbl_jadwal.id_mhs' in 'on clause'
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_dsn.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Dsn.php(50): App\Models\Model_dsn->mhs('21')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 10:31:09 --> Unknown column 'tbl_jadwal.id_mhs' in 'on clause'
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_dsn.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Dsn.php(50): App\Models\Model_dsn->mhs('21')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 10:32:28 --> Undefined variable: data_matkul
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_absensi.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 79, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(53): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 10:33:08 --> Illegal string offset 'sks'
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_absensi.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Ampps\\www\\si...', 80, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(53): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 10:33:39 --> Illegal string offset 'kode_matkul'
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_absensi.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Ampps\\www\\si...', 84, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(53): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 10:34:56 --> Illegal string offset 'nim'
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_absensi.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Ampps\\www\\si...', 84, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(53): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 10:35:38 --> Illegal string offset 'nim'
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_absensi.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Ampps\\www\\si...', 84, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(53): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 10:36:07 --> Unknown column 'tbl_jadwal.id_jadwal' in 'where clause'
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_dsn.php(37): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Dsn.php(50): App\Models\Model_dsn->mhs('21')
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-27 10:36:20 --> Illegal string offset 'nim'
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_absensi.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Ampps\\www\\si...', 84, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(53): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 10:37:02 --> Illegal string offset 'nama_mhs'
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_absensi.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Ampps\\www\\si...', 85, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(53): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 10:38:44 --> Invalid file: dosen/absen/v_absensi.php
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/absen/v_a...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#2 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#3 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#4 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#7 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\Ampps\www\siakad\app\Controllers\Dsn.php(53): view('layout/v_wrappe...', Array)
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-12-27 10:39:02 --> Invalid file: dosen/absen/v_absensi.php
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/absen/v_a...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#2 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#3 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#4 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#7 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\Ampps\www\siakad\app\Controllers\Dsn.php(53): view('layout/v_wrappe...', Array)
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-12-27 10:39:11 --> Invalid file: dosen/absen/v_absenkelas.php
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/absen/v_a...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#2 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#3 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#4 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#7 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\Ampps\www\siakad\app\Controllers\Dsn.php(42): view('layout/v_wrappe...', Array)
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absen_kelas()
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-12-27 10:39:46 --> Invalid file: dosen/absen/v_absenkelas.php
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/absen/v_a...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#2 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#3 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#4 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#7 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\Ampps\www\siakad\app\Controllers\Dsn.php(42): view('layout/v_wrappe...', Array)
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absen_kelas()
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-12-27 10:39:47 --> Invalid file: dosen/absen/v_absenkelas.php
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/absen/v_a...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#2 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#3 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#4 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#7 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\Ampps\www\siakad\app\Controllers\Dsn.php(42): view('layout/v_wrappe...', Array)
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absen_kelas()
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-12-27 10:40:10 --> Invalid file: dosen/absen/v_absenkelas.php
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/absen/v_a...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#2 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#3 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#4 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#7 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\Ampps\www\siakad\app\Controllers\Dsn.php(42): view('layout/v_wrappe...', Array)
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absen_kelas()
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-12-27 10:40:17 --> Invalid file: dosen/absen/v_absenkelas.php
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/absen/v_a...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#2 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#3 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#4 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#7 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\Ampps\www\siakad\app\Controllers\Dsn.php(42): view('layout/v_wrappe...', Array)
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absen_kelas()
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-12-27 10:40:33 --> Invalid file: dosen/absen/v_absenkelas.php
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/absen/v_a...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#2 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#3 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#4 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#7 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\Ampps\www\siakad\app\Controllers\Dsn.php(42): view('layout/v_wrappe...', Array)
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absen_kelas()
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-12-27 10:40:58 --> Invalid file: dosen/absen/v_absenkelas.php
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/absen/v_a...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#2 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#3 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#4 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#7 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\Ampps\www\siakad\app\Controllers\Dsn.php(42): view('layout/v_wrappe...', Array)
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absen_kelas()
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-12-27 10:41:00 --> Invalid file: dosen/absen/v_absenkelas.php
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/absen/v_a...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#2 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#3 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#4 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#7 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\Ampps\www\siakad\app\Controllers\Dsn.php(42): view('layout/v_wrappe...', Array)
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absen_kelas()
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-12-27 10:41:12 --> Invalid file: dosen/absen/v_absenkelas.php
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/absen/v_a...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#2 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#3 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#4 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#7 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\Ampps\www\siakad\app\Controllers\Dsn.php(42): view('layout/v_wrappe...', Array)
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absen_kelas()
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-12-27 10:42:07 --> Invalid file: dosen/absen/v_absenkelas.php
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dosen/absen/v_a...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#2 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#3 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#4 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#5 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#6 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#7 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#8 D:\Ampps\www\siakad\app\Controllers\Dsn.php(42): view('layout/v_wrappe...', Array)
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absen_kelas()
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2020-12-27 10:44:40 --> Undefined variable: jadwal
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_absenkelas.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 27, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(42): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absen_kelas()
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-27 10:53:10 --> Undefined index: sks
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_absensi.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Ampps\\www\\si...', 80, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(53): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}

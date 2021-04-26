@@ -1,0 +1,73 @@
+CRITICAL - 2020-12-24 06:36:09 --> Invalid file: {0}
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('krs/v_print_krs...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('krs/v_print_krs', Array, true)
+#2 D:\Ampps\www\siakad\app\Controllers\Krs.php(59): view('krs/v_print_krs', Array)
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Krs->print()
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Krs))
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-12-24 06:45:01 --> syntax error, unexpected end of file
+#0 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('mhs/krs/v_print...', Array, true)
+#1 D:\Ampps\www\siakad\app\Controllers\Krs.php(64): view('mhs/krs/v_print...', Array)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Krs->print()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Krs))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-24 07:24:07 --> syntax error, unexpected 'return' (T_RETURN)
+#0 D:\Ampps\www\siakad\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('krs')
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(798): CodeIgniter\Router\Router->handle('krs')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(369): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-24 07:29:37 --> Class 'App\Controllers\mPDF' not found
+#0 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Krs->print()
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Krs))
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-24 07:36:31 --> syntax error, unexpected 'return' (T_RETURN)
+#0 D:\Ampps\www\siakad\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('krs')
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(798): CodeIgniter\Router\Router->handle('krs')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(369): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-24 07:40:19 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 D:\Ampps\www\siakad\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('krs')
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(798): CodeIgniter\Router\Router->handle('krs')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(369): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-24 07:40:45 --> Call to undefined method Dompdf\Dompdf::return()
+#0 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Krs->print()
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Krs))
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-24 11:28:19 --> Undefined property: App\Controllers\Mhs::$Model_krs
+#0 D:\Ampps\www\siakad\app\Controllers\Mhs.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Ampps\\www\\si...', 24, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Mhs->absensi()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mhs))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-24 12:34:35 --> Undefined index: p
+#0 D:\Ampps\www\siakad\app\Views\mhs\v_absensi.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Ampps\\www\\si...', 60, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('mhs/v_absensi', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('mhs/v_absensi')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Mhs.php(35): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Mhs->absensi()
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mhs))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}

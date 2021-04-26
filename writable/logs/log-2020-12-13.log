@@ -1,0 +1,331 @@
+CRITICAL - 2020-12-13 05:05:07 --> Undefined variable: semester
+#0 D:\Ampps\www\siakad\app\Controllers\Matkul.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 79, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Matkul->add('1')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matkul))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 05:06:41 --> Undefined variable: semster
+#0 D:\Ampps\www\siakad\app\Controllers\Matkul.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 79, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Matkul->add('1')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matkul))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 05:07:49 --> syntax error, unexpected ''kategori'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('matkul/add/1')
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(798): CodeIgniter\Router\Router->handle('matkul/add/1')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(369): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 05:08:21 --> Undefined variable: semster
+#0 D:\Ampps\www\siakad\app\Controllers\Matkul.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 79, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Matkul->add('1')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matkul))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 05:15:47 --> Undefined variable: semstr
+#0 D:\Ampps\www\siakad\app\Controllers\Matkul.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 88, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Matkul->add('1')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matkul))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 05:26:10 --> Undefined variable: id_prodi
+#0 D:\Ampps\www\siakad\app\Controllers\Matkul.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 109, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Matkul->delete('1', '10')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matkul))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 05:26:46 --> Undefined variable: id_matkul
+#0 D:\Ampps\www\siakad\app\Controllers\Matkul.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 105, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Matkul->delete('1', '10')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Matkul))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 09:08:35 --> Undefined property: App\Controllers\User::$Model_user
+#0 D:\Ampps\www\siakad\app\Controllers\User.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Ampps\\www\\si...', 17, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\User->index()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 10:36:27 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'D:\\Ampps\\www\\si...', 65, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\User.php(65): password_hash('sangga')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\User->add()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-13 10:50:39 --> Undefined property: App\Controllers\User::$input
+#0 D:\Ampps\www\siakad\app\Controllers\User.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Ampps\\www\\si...', 65, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\User->add()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 10:50:57 --> Undefined property: App\Controllers\User::$input
+#0 D:\Ampps\www\siakad\app\Controllers\User.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Ampps\\www\\si...', 65, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\User->add()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 10:52:08 --> Undefined property: App\Controllers\User::$input
+#0 D:\Ampps\www\siakad\app\Controllers\User.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Ampps\\www\\si...', 65, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\User->add()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 10:52:49 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getPost
+#0 D:\Ampps\www\siakad\app\Controllers\User.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Ampps\\www\\si...', 65, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\User->add()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 11:11:56 --> password_verify() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'D:\\Ampps\\www\\si...', 53, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(53): password_verify(true)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-13 11:12:13 --> Too few arguments to function App\Models\Model_auth::login_user(), 1 passed in D:\Ampps\www\siakad\app\Controllers\Auth.php on line 54 and exactly 2 expected
+#0 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user(false)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 11:12:25 --> Too few arguments to function App\Models\Model_auth::login_user(), 1 passed in D:\Ampps\www\siakad\app\Controllers\Auth.php on line 54 and exactly 2 expected
+#0 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user(false)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 11:13:17 --> syntax error, unexpected ','
+#0 D:\Ampps\www\siakad\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('auth/cek_login')
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(798): CodeIgniter\Router\Router->handle('auth/cek_login')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(369): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 11:25:22 --> password_verify() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'D:\\Ampps\\www\\si...', 55, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(55): password_verify(NULL)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-13 11:30:26 --> Undefined variable: user
+#0 D:\Ampps\www\siakad\app\Controllers\Auth.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 55, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 11:31:40 --> password_verify() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'D:\\Ampps\\www\\si...', 55, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(55): password_verify('admin', Array)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-13 11:31:52 --> password_verify() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'D:\\Ampps\\www\\si...', 55, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(55): password_verify(Array)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-13 19:25:23 --> password_verify() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'D:\\Ampps\\www\\si...', 55, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(55): password_verify(NULL)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-13 19:28:26 --> password_verify() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'D:\\Ampps\\www\\si...', 56, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(56): password_verify(NULL)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-13 19:28:47 --> password_verify() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'D:\\Ampps\\www\\si...', 56, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(56): password_verify(NULL)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-13 19:30:33 --> password_verify() expects exactly 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'D:\\Ampps\\www\\si...', 56, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(56): password_verify('sangga')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-13 20:02:41 --> syntax error, unexpected ',', expecting ']'
+#0 D:\Ampps\www\siakad\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('auth/cek_login')
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(798): CodeIgniter\Router\Router->handle('auth/cek_login')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(369): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 20:24:38 --> Undefined property: App\Controllers\Auth::$db
+#0 D:\Ampps\www\siakad\app\Controllers\Auth.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Ampps\\www\\si...', 55, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 20:26:31 --> Undefined property: App\Controllers\Auth::$db
+#0 D:\Ampps\www\siakad\app\Controllers\Auth.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Ampps\\www\\si...', 53, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 20:33:48 --> syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 D:\Ampps\www\siakad\app\Controllers\Auth.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(895): App\Controllers\Auth->__construct()
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->createController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-13 20:33:55 --> syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 D:\Ampps\www\siakad\app\Controllers\Auth.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(895): App\Controllers\Auth->__construct()
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->createController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-13 20:34:04 --> syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 D:\Ampps\www\siakad\app\Controllers\Auth.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(895): App\Controllers\Auth->__construct()
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->createController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-13 20:34:21 --> syntax error, unexpected '$password' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 D:\Ampps\www\siakad\app\Controllers\Auth.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(895): App\Controllers\Auth->__construct()
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->createController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-13 20:34:36 --> syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 D:\Ampps\www\siakad\app\Controllers\Auth.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(895): App\Controllers\Auth->__construct()
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->createController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-13 20:35:16 --> syntax error, unexpected '}', expecting end of file
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 D:\Ampps\www\siakad\app\Controllers\Auth.php(11): spl_autoload_call('App\\Models\\Mode...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(895): App\Controllers\Auth->__construct()
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->createController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-13 20:35:31 --> Call to undefined function App\Models\config_item()
+#0 D:\Ampps\www\siakad\app\Models\Model_auth.php(9): App\Models\Model_auth->hash('admin')
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user('admin', 'admin')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-13 20:38:03 --> You must set the database table to be used with your query.
+#0 D:\Ampps\www\siakad\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Ampps\www\siakad\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\Ampps\www\siakad\app\Models\Model_auth.php(9): CodeIgniter\Model->__call('hash', Array)
+#3 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user('admin', 'admin')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-13 20:38:37 --> You must set the database table to be used with your query.
+#0 D:\Ampps\www\siakad\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Ampps\www\siakad\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\Ampps\www\siakad\app\Models\Model_auth.php(9): CodeIgniter\Model->__call('hash', Array)
+#3 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user('admin', 'admin')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-13 20:39:07 --> Call to undefined function App\Models\config_item()
+#0 D:\Ampps\www\siakad\app\Models\Model_auth.php(9): App\Models\Model_auth->hash('admin')
+#1 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user('admin', 'admin')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-12-13 20:39:18 --> You must set the database table to be used with your query.
+#0 D:\Ampps\www\siakad\system\Model.php(1237): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\Ampps\www\siakad\system\Model.php(1816): CodeIgniter\Model->builder()
+#2 D:\Ampps\www\siakad\app\Models\Model_auth.php(9): CodeIgniter\Model->__call('hash', Array)
+#3 D:\Ampps\www\siakad\app\Controllers\Auth.php(54): App\Models\Model_auth->login_user('admin', 'admin')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-12-13 20:53:21 --> Call to undefined function App\Controllers\passwrd_verify()
+#0 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-12-13 20:53:57 --> Undefined variable: row
+#0 D:\Ampps\www\siakad\app\Controllers\Auth.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 58, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-13 20:54:09 --> Trying to get property 'password' of non-object
+#0 D:\Ampps\www\siakad\app\Controllers\Auth.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Ampps\\www\\si...', 58, Array)
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Auth->cek_login()
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

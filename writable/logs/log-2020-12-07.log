@@ -1,0 +1,16 @@
+CRITICAL - 2020-12-07 21:13:01 --> Undefined index: gedung
+#0 D:\Ampps\www\siakad\app\Views\admin\ruangan\v_index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Ampps\\www\\si...', 34, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('admin/ruangan/v...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('admin/ruangan/v...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Ruangan.php(20): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Ruangan->index()
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ruangan))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}

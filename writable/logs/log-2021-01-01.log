@@ -1,0 +1,22 @@
+CRITICAL - 2021-01-01 08:22:23 --> Too few arguments to function App\Controllers\Dsn::print_absensi(), 0 passed in D:\Ampps\www\siakad\system\CodeIgniter.php on line 923 and exactly 1 expected
+#0 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->print_absensi()
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-01-01 08:30:19 --> Undefined index: foto_mhs
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_print_absen.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Ampps\\www\\si...', 47, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_p...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_p...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(95): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->print_absensi('21')
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}

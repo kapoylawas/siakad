@@ -1,0 +1,62 @@
+CRITICAL - 2020-12-02 00:35:59 --> Table 'siakad.tbl_fakultas' doesn't exist
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_fakultas.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Fakultas.php(17): App\Models\Model_fakultas->alldata()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Fakultas->index()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-02 00:37:08 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('fakultas')
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(798): CodeIgniter\Router\Router->handle('fakultas')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(369): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-02 00:37:21 --> syntax error, unexpected ';', expecting ']'
+#0 D:\Ampps\www\siakad\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('fakultas')
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(798): CodeIgniter\Router\Router->handle('fakultas')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(369): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-02 00:37:29 --> Table 'siakad.tbl_fakultas' doesn't exist
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_fakultas.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Fakultas.php(17): App\Models\Model_fakultas->alldata()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Fakultas->index()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-02 00:38:02 --> Table 'siakad.tbl_fakultas' doesn't exist
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_fakultas.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Fakultas.php(17): App\Models\Model_fakultas->alldata()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Fakultas->index()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2020-12-02 00:39:36 --> Table 'siakad.tbl_fakultas' doesn't exist
+#0 D:\Ampps\www\siakad\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 D:\Ampps\www\siakad\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Ampps\www\siakad\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Ampps\www\siakad\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Ampps\www\siakad\app\Models\Model_fakultas.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Ampps\www\siakad\app\Controllers\Fakultas.php(16): App\Models\Model_fakultas->allData()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Fakultas->index()
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fakultas))
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

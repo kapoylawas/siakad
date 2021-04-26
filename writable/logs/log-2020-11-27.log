@@ -1,0 +1,229 @@
+CRITICAL - 2020-11-27 00:24:48 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:26:39 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:26:41 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:28:17 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:28:18 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:28:18 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:28:19 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:28:19 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:28:19 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:28:19 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:28:20 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:28:20 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:31:33 --> Undefined variable: isi
+#0 D:\Ampps\www\siakad\app\Views\layout\v_content.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 2, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#6 D:\Ampps\www\siakad\app\Controllers\Home.php(12): view('layout/v_wrappe...', Array)
+#7 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Home->index()
+#8 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2020-11-27 00:32:32 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:33:21 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:33:22 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:33:22 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:33:23 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:33:23 --> syntax error, unexpected ''isi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\Ampps\\www\\si...')
+#1 D:\Ampps\www\siakad\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(874): class_exists('\\App\\Controller...', true)
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-27 00:37:14 --> Invalid file: {0}
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home.php')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#2 D:\Ampps\www\siakad\app\Controllers\Home.php(7): view('home')
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Home->index()
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 00:39:54 --> Invalid file: {0}
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('loyout/v_wrappe...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('loyout/v_wrappe...', Array, true)
+#2 D:\Ampps\www\siakad\app\Controllers\Home.php(11): view('loyout/v_wrappe...', Array)
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Home->index()
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 00:41:18 --> Invalid file: {0}
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('loyout/v_wrappe...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('loyout/v_wrappe...', Array, true)
+#2 D:\Ampps\www\siakad\app\Controllers\Home.php(11): view('loyout/v_wrappe...', Array)
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Home->index()
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-27 00:41:19 --> Invalid file: {0}
+#0 D:\Ampps\www\siakad\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('loyout/v_wrappe...')
+#1 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('loyout/v_wrappe...', Array, true)
+#2 D:\Ampps\www\siakad\app\Controllers\Home.php(11): view('loyout/v_wrappe...', Array)
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Home->index()
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}

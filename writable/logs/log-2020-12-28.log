@@ -1,0 +1,45 @@
+CRITICAL - 2020-12-28 08:29:00 --> Undefined index: kode_matkul
+#0 D:\Ampps\www\siakad\app\Views\dosen\absen\v_absensi.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Ampps\\www\\si...', 93, Array)
+#1 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#2 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('dosen/absen/v_a...', Array, true)
+#3 D:\Ampps\www\siakad\app\Views\layout\v_content.php(3): view('dosen/absen/v_a...')
+#4 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#5 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#6 D:\Ampps\www\siakad\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#7 D:\Ampps\www\siakad\system\View\View.php(246): include('D:\\Ampps\\www\\si...')
+#8 D:\Ampps\www\siakad\system\Common.php(1119): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#9 D:\Ampps\www\siakad\app\Controllers\Dsn.php(53): view('layout/v_wrappe...', Array)
+#10 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->absensi('21')
+#11 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#12 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2020-12-28 09:11:28 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 D:\Ampps\www\siakad\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('dsn/absensi/21')
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(798): CodeIgniter\Router\Router->handle('dsn/absensi/21')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(369): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-28 09:12:19 --> syntax error, unexpected '='
+#0 D:\Ampps\www\siakad\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('dsn/absensi/21')
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(798): CodeIgniter\Router\Router->handle('dsn/absensi/21')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(369): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-28 09:12:44 --> syntax error, unexpected ','
+#0 D:\Ampps\www\siakad\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('dsn/absensi/21')
+#1 D:\Ampps\www\siakad\system\CodeIgniter.php(798): CodeIgniter\Router\Router->handle('dsn/absensi/21')
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(369): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-12-28 09:33:00 --> Undefined variable: data
+#0 D:\Ampps\www\siakad\app\Models\Model_dsn.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Ampps\\www\\si...', 43, Array)
+#1 D:\Ampps\www\siakad\app\Controllers\Dsn.php(63): App\Models\Model_dsn->simpan_absen(Array)
+#2 D:\Ampps\www\siakad\system\CodeIgniter.php(923): App\Controllers\Dsn->simpan_absen('21')
+#3 D:\Ampps\www\siakad\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dsn))
+#4 D:\Ampps\www\siakad\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Ampps\www\siakad\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
